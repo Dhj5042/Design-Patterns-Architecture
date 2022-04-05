@@ -19,12 +19,12 @@ namespace Practical_24.Services
             this.dbContext = dbContext;
         }
 
-        public async Task<bool> DeleteEmployee(int id)
+        public  bool DeleteEmployee(int id)
         {
             var employee =  GetEmployeeByID(id);
             employee.Employee_Status = false;
             var res= dbContext.Update(employee);
-            await dbContext.SaveChangesAsync();
+            dbContext.SaveChanges();
             if (res!=null)
             {
                 return true;
@@ -43,18 +43,18 @@ namespace Practical_24.Services
    
         }
 
-        public async Task<Employee> PostEmployee(Employee employee)
+        public  Employee PostEmployee(Employee employee)
         {
-            var result =await dbContext.Tbl_Employees.AddAsync(employee);
-            await dbContext.SaveChangesAsync();
+            var result = dbContext.Tbl_Employees.Add(employee);
+             dbContext.SaveChanges();
             return employee;
         }
 
-        public async Task<Employee> UpdateEmployee(Employee employee)
+        public Employee UpdateEmployee(Employee employee)
         {
 
             dbContext.Tbl_Employees.Update(employee);
-            await dbContext.SaveChangesAsync();
+            dbContext.SaveChanges();
             return employee;
         }
 
