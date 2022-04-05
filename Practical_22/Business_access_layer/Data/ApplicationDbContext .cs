@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.Model;
+﻿using Business_access_layer.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Data
+namespace Business_access_layer.Data
 {
     public  class ApplicationDbContext : DbContext
     {

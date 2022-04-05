@@ -1,4 +1,6 @@
-using DataAccessLayer.Data;
+using BAL_Abstract_Factory;
+using Business_access_layer;
+using Business_access_layer.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +38,8 @@ namespace Practical_22
             });
             services.AddDbContext<ApplicationDbContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<DepartmentFactory>();
+            services.AddScoped<FactoryType>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

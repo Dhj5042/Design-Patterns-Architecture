@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Model
+namespace Business_access_layer.Model
 {
     public class Employee
     {
