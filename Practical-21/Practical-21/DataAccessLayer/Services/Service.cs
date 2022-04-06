@@ -9,13 +9,24 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Services
 {
-    public class Service : IservicesDA
+    public sealed class Service : IservicesDA
     {
         private readonly ApplicationDbContext dbContext;
+        private static Service instance = null;
 
         public Service(ApplicationDbContext dbContext)
         {
             this.dbContext = dbContext;
+        }
+        private Service() { }
+        public static Service GetInstance
+        {
+            get
+            {
+                if (instance == null)
+                    instance = new Service();
+                return instance;
+            }
         }
 
         public async Task<bool> DeleteEmployee(int id)

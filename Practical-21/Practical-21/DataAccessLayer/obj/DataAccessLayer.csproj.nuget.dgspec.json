@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dhruvin\\Documents\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\dhruvin\\Documents\\Asp.net\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dhruvin\\Documents\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\dhruvin\\Documents\\Asp.net\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dhruvin\\Documents\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\dhruvin\\Documents\\Asp.net\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\dhruvin\\Documents\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\dhruvin\\Documents\\Asp.net\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\dhruvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dhruvin\\Documents\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\dhruvin\\Documents\\Asp.net\\Design-Patterns-Architecture\\Practical-21\\Practical-21\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dhruvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
